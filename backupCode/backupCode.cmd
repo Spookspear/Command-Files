@@ -9,7 +9,7 @@
 
 setlocal
 setlocal EnableExtensions EnableDelayedExpansion
-set VERSION=01.02.01
+set VERSION=01.03.00
 
 set DEBUG=No
 if /i "%DEBUG%" equ "Yes" (@echo on) else (@echo off)
@@ -166,10 +166,6 @@ if /i "%DEBUG%" equ "Yes" (pause)
 
     call:calculateHeight %COMPUTERNAME% iWidth iHeight iColor
 
-    if /i "%DEBUG%" equ "Yes" (@echo  iWidth %iWidth%)
-    if /i "%DEBUG%" equ "Yes" (@echo iHeight %iHeight%)
-    if /i "%DEBUG%" equ "Yes" (pause)
-
     if /i "%DEBUG%" neq "Yes" (mode con: cols=%iWidth% lines=%iHeight%)
     set /a iWidth-=iSubtractWidth
 
@@ -215,7 +211,7 @@ if /i "%DEBUG%" equ "Yes" (pause)
     call:calculateLength "%sSubtractMsg%"   iSubtractWidth
     call:calculateLength "%strEchoMeasure%" iEchoWidth
 
-    set /a iH_Buff=3
+    :: set /a iH_Buff=3
 
     if /i "%DEBUG%" equ "Yes" (@echo iSubtractWidth %iSubtractWidth%)
     if /i "%DEBUG%" equ "Yes" (@echo iEchoWidth     %iEchoWidth%)
@@ -232,15 +228,16 @@ goto:eof
 if /i "%DEBUG%" equ "Yes" (@echo calculateHeight - Start)
 if /i "%DEBUG%" equ "Yes" (pause)
 
-    if not defined iW_Buff  (set /a iW_Buff=0)
-    if not defined iH_Buff  (set /a iH_Buff=0)
+    set /a iW_Buff=0
+    set /a iH_Buff=16
 
     if %iEchoWidth% lss %Q_MIN_WIDTH% (set /a iEchoWidth=%Q_MIN_WIDTH%)
-
     set /a iW=%iEchoWidth%
 
-    :: set /a iW=185
-    set /a iH=99
+    call:countFiles "%cd%" *.*     iH
+
+    :: Take off 1 for this command file
+    set /a iH-=1
     set iC=9f
 
     if /i "%Q_ALLOW_PAUSE%" equ "Yes" (set /a iH_Buff+=1)
@@ -428,11 +425,17 @@ goto:eof
 ::-- countFiles
 ::--------------------------------------------------------
 :countFiles
+if /i "%DEBUG%" equ "Yes" (@echo countFiles - Start)
+if /i "%DEBUG%" equ "Yes" (pause)
+
     set sFolder=%~1
     set sMask=%2
     set /a iCount=0
     for %%x in ("%sFolder%\%sMask%") do (set /a iCount+=1)
     set %~3=%iCount%
+
+if /i "%DEBUG%" equ "Yes" (@echo countFiles - End)
+if /i "%DEBUG%" equ "Yes" (pause)
 goto:eof
 
 ::--------------------------------------------------------
@@ -464,7 +467,7 @@ if /i "%DEBUG%" equ "Yes" (pause)
     call:Logging "%SEPERATOR2%"
 
     if /i "%Q_ALLOW_PAUSE%" equ "Yes" (
-        pause >nul
+        pause
     ) else (
         timeout /t %iTimeOut% >nul
     )
