@@ -1,0 +1,14 @@
+C:\Temp\bisho_g\.ms-ad
+C:\Temp\bisho_g\3D Objects
+C:\Temp\bisho_g\Contacts
+C:\Temp\bisho_g\Desktop
+C:\Temp\bisho_g\Documents
+C:\Temp\bisho_g\Downloads
+C:\Temp\bisho_g\Favorites
+C:\Temp\bisho_g\Links
+C:\Temp\bisho_g\Music
+C:\Temp\bisho_g\OneDrive
+C:\Temp\bisho_g\Pictures
+C:\Temp\bisho_g\Saved Games
+C:\Temp\bisho_g\Searches
+C:\Temp\bisho_g\Videos
