@@ -1,0 +1,466 @@
+:: ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
+:: Changes
+:: ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
+
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: DM1007
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: CHG0037834 - DM1007 - SAP 31-01
+:: CHG0038019 - DM1007 - SAP 07-02
+:: CHG0038024 - DM1007 - Primavera 10-02
+:: CHG0038055 - DM1007 - Primavera 10-02
+:: CHG0038061 - DM1007 - Primavera 10-02
+:: CHG0038085 - DM1007 - Primavera 15-02
+:: CHG0038631 - DM1007 - SAP 21-03
+:: CHG0038726 - DM1007 - Primavera 28-03
+:: CHG0038741 - DM1007 - SAP 14-04
+:: CHG0038927 - DM1007 - SAP 21-04
+:: CHG0040143 - DM1007 - SAP 10-07
+:: CHG0041217 - DM1007 - SAP 21-10
+
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: DM1415
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: CHG0039151 - DM1415 - ONE Integrity
+
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: DM1420
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: CHG0037028 - DM1420 - A051 PARS
+:: CHG0037114 - DM1420 - ONE Integrity
+:: CHG0037116 - DM1420 - A062 Return to Scene
+:: CHG0037153 - DM1420 - A059 GDI-Vision
+:: CHG0037283 - DM1420 - A066 Brahms
+:: CHG0037499 - DM1420 - A070 Citrix DR
+:: CHG0037587 - DM1420 - A065 SAP Delaware
+:: CHG0037625 - DM1420 - AIR Form
+:: CHG0037654 - DM1420 - A070 Citrix Prod
+:: CHG0037365 - DM1420 - A063 Codify
+
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: DM1542
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: CHG0033698 - DM1542 - AIRFORM - License Management
+:: CHG0035734 - DM1542 - eSearch - Migration
+:: CHG0038546 - DM1542 - Amulet - Application Migration
+
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: DM1666
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: CHG0042666 - DM1666 - Salto
+
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: ISBAU12
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: CHG0032516 - ISBAU12 - Lacima Trader license Software Upgrade
+:: CHG0030420 - ISBAU12 - Lacima Trader License Renewal
+:: CHG0032284 - ISBAU12 - Lacima Trader License Renewal
+
+:: ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
+:: Incidents
+:: ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
+
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: Citrix
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: INC0069255 - Citrix - Unable to connect
+:: INC0073675 - Citrix - Desktop Missing
+
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: DM1415
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: INC0069272 - DM1415 - P2 APlus Excel Macro
+
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: DM1542
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: INC0068677 - General - Conoco Account Issues
+:: INC0077546 - General - Website Blocked
+:: INC0085401 - General - Unlock adm.grant.bishop
+:: INC0000000 - DM1542 - Citrix - Unable to run programs
+:: INC0094262 - General - ABZWAPP0058 Conoco-bisho_g cant access
+
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: eSearch
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: INC0061404 - eSearch - Login issues
+:: INC0072861 - eSearch - Find-It-Fast
+:: INC0072866 - eSearch - Broken URL Attachments
+:: INC0100579 - eSearch - Find-It-Fast
+:: INC0104577 - eSearch - Port Check
+:: INC0173876 - eSearch - Unable to access AB0PWAPPESRCH01
+
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: eLearning
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: INC0012399 - eLearning - Harbour Learning
+:: INC0048975 - eLearning - Knowb4 - missing course
+:: INC0065185 - eLearning - Ethics and Compliance
+
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: General
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: INC0024122 - General - Lastpass MS Edge Issue
+:: INC0024464 - General - Scanning Issues
+:: INC0034741 - General - Unlock Grant Bishop
+:: INC0038035 - General - Issues with Change [CHG0033698]
+:: INC0038450 - General - Unlock Jan Sorensen
+:: INC0055856 - General - Admin Account Not working
+:: INC0059814 - General - Unable to view Knowledge Centre Article
+:: INC0068358 - General - Global Protect not connecting
+:: INC0069190 - General - MimeCast Not working
+:: INC0089680 - General - Lastpass MS Edge Issue
+:: INC0045377 - General - Mimecast XLG domain safe
+:: INC0096747 - General - Process Explorer False Positive
+:: INC0000000 - General - Inability to run Excel Macros
+:: INC0111609 - General - Cannot request software on someones behalf
+
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: Vevox
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: INC0032918 - Vevox - Not Accessible
+:: INC0064617 - Vevox - Licence Transfer:: INC0064617 - Vevox - Licence Trasfer
+:: INC0096582 - Vevox - Data Retention Settings
+
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: Not Logged
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: INC0000000 - Not Logged - Laptop Msg on boot
+:: INC0000000 - Not Logged - Office not working
+:: INC0000000 - Not Logged - O Drive
+:: INC0000000 - Not Logged - Excel Addin Justification
+:: INC0000000 - Not Logged - Excel Hanging
+:: INC0000000 - Not Logged - Global Protect not connecting
+:: INC0000000 - Not Logged - IncorrectSID
+:: INC0000000 - Not Logged - Jamie Groups
+:: INC0000000 - Not Logged - ProSource - TSheet
+:: INC0000000 - Not Logged - Safe Senders
+:: INC0000000 - Not Logged - TaginReparsePoint
+:: INC0000000 - Not Logged - Timesheet - potential issue
+:: INC0000000 - Not Logged - timeSync
+:: INC0000000 - Not Logged - Unable to access knowledge base
+:: INC0000000 - Not Logged - Unable to run command files
+:: INC0000000 - Not Logged - Username marked suspicious
+:: INC0000002 - Not Logged - TaginReparsePoint 2
+:: INC0000000 - General - Computer Issues DCOM
+:: INC0000000 - Citrix - AB0PWCTXVDA28 missing mscomct2.ocx
+
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: Security
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: INC0108307 - Security - Identity scanning
+
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: Treasury
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: INC0000000 - Treasury - Lacima Licence Code [CHG0030420]
+:: INC0027268 - Treasury - Lacima Licence Code
+:: INC0028952 - Treasury - Eikon Digital Signature
+:: INC0030143 - Treasury - Lacima Software Update - Jordan Pearce
+:: INC0030228 - Treasury - Lacima Software Update - Jacqui Pynn
+:: INC0029489 - Treasury - Eikon Digital Signature
+
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: Personal
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: PER0000001 - Computers - Laptop New
+:: PER0000001 - Computers - Monitor
+:: PER0000001 - Computers - Mouse
+
+:: PER0000001 - Development - 7Zip Metrics
+:: PER0000001 - Development - ABZ-ER-LOGISTIC
+:: PER0000001 - Development - Component Services
+:: PER0000001 - Development - Dictionary
+:: PER0000001 - Development - Edge Passwords
+:: PER0000001 - Development - Emails
+:: PER0000001 - Development - Excel Filename
+:: PER0000001 - Development - Notepad++ Macros
+:: PER0000001 - Development - SNow Dynamic Dropdowns
+:: PER0000001 - Development - SNow MakeFolders
+:: PER0000001 - Development - Suggestions
+:: PER0000001 - Development - Syntax
+:: PER0000001 - Development - TBOF
+:: PER0000001 - Development - Timestamp Files
+:: PER0000001 - Development - URLs
+
+:: PER0000001 - DIY - Garden
+
+:: PER0000001 - File System - All Windows Files
+:: PER0000001 - File System - Archive Folders
+:: PER0000001 - File System - Archiver Shortcut
+:: PER0000001 - File System - Desktop INI Icons
+:: PER0000001 - File System - Duplicates
+:: PER0000001 - File System - Empty Folders
+:: PER0000001 - File System - Folders Relocate
+:: PER0000001 - File System - Icon Compare
+:: PER0000001 - File System - OneDrive backup
+
+:: PER0000001 - Finance - Bank
+:: PER0000001 - Finance - Tax
+:: PER0000001 - Finance - Trefgarn Road
+
+:: PER0000001 - General  - Identification
+:: PER0000001 - General - Job Hunting
+:: PER0000001 - General - Katie Uni
+:: PER0000001 - General - Prosource - TTD
+
+:: PER0000001 - Medical - Dentist
+:: PER0000001 - Medical - Drs
+:: PER0000001 - Medical - Vet
+
+:: PER0000001 - Shopping - Clearomisers
+:: PER0000001 - Shopping - Mandy Xmas
+:: PER0000001 - Shopping - Shopping
+
+:: PER0000001 - Travel - Essex 2023
+:: PER0000001 - Travel - Speeding Ticket
+
+:: PER0000001 - Utilities - Apex Shed
+:: PER0000001 - Utilities - Car
+:: PER0000001 - Utilities - Chimney
+:: PER0000001 - Utilities - Dish Washer
+:: PER0000001 - Utilities - Door
+:: PER0000001 - Utilities - Grants Mobile Phone
+:: PER0000001 - Utilities - Plumber
+
+:: PER0000001 - Personal - eCiggs
+:: PER0000001 - Personal - Roofers
+:: PER0000001 - Personal - Virtual Machine
+:: PER0000001 - Personal - Adobe
+:: PER0000001 - Personal - Portugal 2024
+:: PER0000001 - Personal - Crowdstrike
+:: PER0000001 - Personal - Free Space
+:: PER0000001 - Personal - YouTube Subscriptions
+:: PER0000001 - Personal - Finance - Pension
+
+:: Not logged
+:: PER0000001 - Personal - Auto Clicker
+
+:: ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
+:: Requests
+:: ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
+
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: ISBAU12
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: REQ0057674 - ISBAU12 - Group for DB permissions
+:: REQ0057615 - ISBAU12 - Winshuttle - Michelle Brechin
+:: REQ0058437 - ISBAU12 - Winshuttle - Sian Jennings
+:: REQ0059082 - ISBAU12 - Vevox - Licences
+:: REQ0059668 - ISBAU12 - Amulet - Packaged
+:: REQ0059800 - ISBAU12 - Amulet - AVD - Firewall
+:: REQ0060087 - ISBAU12 - Service Now - CR report
+:: REQ0061400 - ISBAU12 - Amulet - Cyber Exception
+:: REQ0061798 - ISBAU12 - Amulet - AVD - Firewall
+:: REQ0061699 - ISBAU12 - Vevox - Three Users
+:: REQ0061905 - ISBAU12 - Vevox - Four Users
+:: REQ0062272 - ISBAU12 - Uninstall privileges on AZ0PWEMSJMP01
+
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: DM1007
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: REQ0000000 - DM1007 - Title
+:: REQ0045789 - DM1007 - Default Edge SAP Citrix
+:: REQ0047906 - DM1007 - Maximo backup No 2
+:: REQ0047934 - DM1007 - Maximo backup No 1
+:: REQ0051628 - DM1007 - Maximo Feed into Service Now
+:: REQ0053923 - DM1007 - Maximo backup No 3
+:: REQ0055297 - DM1007 - Maximo user account
+:: REQ0058037 - DM1007 - Access to P6 AD groups
+:: REQ0059241 - DM1007 - Beyond Trust
+:: REQ0060096 - DM1007 - Vysor screen sharing software
+:: REQ0065124 - DM1007 - Access to Beyond Trust
+
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: DM1085
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: REQ0066030 - DM1085 - Title
+:: REQ0042670 - DM1085 - Azure sql db and Azure app
+:: REQ0059647 - DM1085 - SimPro AD Groups
+:: REQ0063858 - DM1085 - Azure AD Access - SimPro Iryna Mykhailova
+:: REQ0064162 - DM1085 - access over Azure SQL tables az0pwemsjmp01
+:: REQ0064388 - DM1085 - Azure AD Accounts for SIMPro
+:: REQ0064441 - DM1085 - Cloud Group SG-AP-UK-AVD-SIMPro
+:: REQ0064853 - DM1085 - Group Membership Folder Azure
+:: REQ0066030 - DM1085 - SIMPro Groups steamline
+
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: DM1272
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: REQ0000000 - DM1272 - Title
+:: REQ0010409 - DM1272 - SAP Print Queues
+:: REQ0010654 - DM1272 - Wireless Printers
+:: REQ0021137 - DM1272 - iSafe Tablet Request
+:: REQ0023745 - DM1272 - S4Q Printer setup
+:: REQ0024948 - DM1272 - GG-AP-UK-mInventory-AC
+:: REQ0066278 - DM1272 - GC-AP-UK-mInventory-AC
+:: REQ0066889 - DM1272 - Administer mInventory groups
+:: REQ0067066 - DM1272 - Users Single Sign on
+:: REQ0067222 - DM1272 - Single Signon - QAS
+:: REQ0067481 - DM1272 - SAP Print Queues
+:: REQ0042955 - DM1272 - GG-AP-UK-mInventory-AC - Daniel Berry
+
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: DM1534
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: REQ0000000 - DM1534 - Vevox
+:: REQ0000000 - DM1534 - SG-AZ-Vevox-Dashboard-SSO
+:: REQ0012265 - DM1534 - Azure Admin Properties
+:: REQ0012695 - DM1534 - Vevox - CMDB entry
+:: REQ0013026 - DM1534 - Vevox - CMDB entry
+:: REQ0014893 - DM1534 - PowerPoint Plugin SSO
+:: REQ0015548 - DM1534 - Vevox - Shared Services
+:: REQ0018127 - DM1534 - Vevox - Remove Emma Spence
+:: REQ0018144 - DM1534 - Vevox - Add Alison Adams
+:: REQ0018154 - DM1534 - Vevox - Create Invite
+:: REQ0018442 - DM1534 - Vevox - Vendor Entry
+:: REQ0022598 - DM1534 - Vevox - Assign Users
+:: REQ0037740 - DM1534 - Vevox - Licence Limit
+:: REQ0041256 - DM1534 - Vevox - Add Kate Overend
+:: REQ0041262 - DM1534 - Vevox - Add Kate Overend
+:: REQ0058873 - DM1534 - Vevox - Rachael Lavender
+
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: DM1542
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: REQ0000000 - DM1542 - App - Title
+:: REQ0010446 - DM1542 - Librestream
+:: REQ0012195 - DM1542 - CBay Access to servers
+:: REQ0012202 - DM1542 - CBay Decommission
+:: REQ0012458 - DM1542 - Spotfire Servers
+:: REQ0012540 - DM1542 - eSearch - Servers
+:: REQ0012786 - DM1542 - Gemini Gas Trading Decomm
+:: REQ0013788 - DM1542 - Web Proxy - Airform
+:: REQ0013791 - DM1542 - Web Proxy - Materials By Air
+:: REQ0013792 - DM1542 - Web Proxy - Materials By Sea
+:: REQ0013848 - DM1542 - ATS Decommission
+:: REQ0014147 - DM1542 - Material Master Decommission
+:: REQ0014197 - DM1542 - Logistics Aviation Decomm
+:: REQ0015116 - DM1542 - Admin AD Group
+:: REQ0015117 - DM1542 - Azure Reader Role
+:: REQ0015531 - DM1542 - Amulet - Server Access
+:: REQ0016679 - DM1542 - Amulet - SQL Server Access
+:: REQ0016679 - DM1542 - Amulet - SQL Server Access
+:: REQ0017342 - DM1542 - Microsoft Visio
+:: REQ0017577 - DM1542 - Amulet - Backup
+:: REQ0017577 - DM1542 - Amulet - Backup
+:: REQ0017861 - DM1542 - eSearch - Application Servers - BS
+:: REQ0017865 - DM1542 - eSearch - Database Servers - BS
+:: REQ0017871 - DM1542 - eSearch - Remove Azure Servers
+:: REQ0018417 - DM1542 - Toad XPMO Decommission
+:: REQ0018622 - DM1542 - Amulet - AD Groups
+:: REQ0019945 - DM1542 - Spotfire Servers
+:: REQ0020107 - DM1542 - Amulet - Interface Server - BS
+:: REQ0020189 - DM1542 - eSearch - New VM for Oracle
+:: REQ0020342 - DM1542 - AlarmInsite - Password reset
+:: REQ0020401 - DM1542 - eSearch - User Account - Graham Bagnall
+:: REQ0020402 - DM1542 - eSearch - Admin Account - Graham Bagnall
+:: REQ0020545 - DM1542 - User-Admin Account - Ronni Madsen
+:: REQ0020724 - DM1542 - eSearch - Server Space Increase
+:: REQ0020915 - DM1542 - eSearch - DB Server Space Increase
+:: REQ0021840 - DM1542 - RDP eSearch servers access - SW
+:: REQ0022353 - DM1542 - Symmetry User and Groups
+:: REQ0022375 - DM1542 - Admin Access to Spotfire Servers
+:: REQ0022543 - DM1542 - JMET CATS Snapshots
+:: REQ0022672 - DM1542 - CELPIMS Server Access
+:: REQ0022972 - DM1542 - Amulet - Folder Created ab0pisilon01
+:: REQ0022973 - DM1542 - Amulet - Service Account
+:: REQ0022974 - DM1542 - Amulet - Test Database
+:: REQ0023035 - DM1542 - Amulet - PI Installed
+:: REQ0023038 - DM1542 - eSearch - Citrix Packaging Request
+:: REQ0024965 - DM1542 - eSearch - Mimecast slb safe
+:: REQ0025726 - DM1542 - Amulet - SA Password reset
+:: REQ0025731 - DM1542 - Amulet - Admin Account Permission
+:: REQ0025900 - DM1542 - Amulet - Server permissions
+:: REQ0026354 - DM1542 - XProtect - az0pwappcctv01
+:: REQ0026922 - DM1542 - Amulet - Server permissions
+:: REQ0027168 - DM1542 - eSearch - Ports AB0TWAPPESRCH01
+:: REQ0027550 - DM1542 - eSearch - Software Center
+:: REQ0027553 - DM1542 - eSearch - Database Refresh
+:: REQ0027877 - DM1542 - eSearch - PowerBI Reports
+:: REQ0028170 - DM1542 - eSearch - Folder Access
+:: REQ0028441 - DM1542 - Amulet - Harbour Energy Folder Access
+:: REQ0028540 - DM1542 - Amulet - Database Refresh Test
+:: REQ0028682 - DM1542 - eSearch - Maxwell Folder Access
+:: REQ0028777 - DM1542 - eSearch - Database Backup Production
+:: REQ0028895 - DM1542 - eSearch - Database Access
+:: REQ0029031 - DM1542 - eSearch - App Server Decommission
+:: REQ0029158 - DM1542 - Amulet - Database Permissions
+:: REQ0029206 - DM1542 - Amulet - HE Database - Test
+:: REQ0030364 - DM1542 - Amulet - HE Database - Prod
+:: REQ0031085 - DM1542 - Amulet - Citrix Admin Access
+:: REQ0031291 - DM1542 - Amulet - Database Refresh - Prod
+:: REQ0031609 - DM1542 - Amulet - Add User Malcolm Brown
+:: REQ0069578 - DM1542 - eSearch - Server Admin Access
+:: REQ0072889 - DM1542 - ATS Decommission
+:: REQ0072968 - DM1542 - Admin Access to Spotfire Servers
+:: REQ0073028 - DM1542 - Amulet - Access to Servers
+:: REQ0032140 - DM1542 - Amulet - New database user
+:: REQ0032369 - DM1542 - Amulet - Open ports fo PI
+:: REQ0032595 - DM1542 - Amulet - Database Refresh - Prod
+:: REQ0033063 - DM1542 - Amulet - PI Datalink
+:: REQ0033353 - DM1542 - Amulet - Database Refresh - Prod
+:: REQ0034361 - DM1542 - eSearch - Admin Account Folder Access
+:: REQ0034433 - DM1542 - Amulet - Database Refresh - Prod
+:: REQ0035654 - DM1542 - Amulet - Database Refresh - Prod
+:: REQ0036719 - DM1542 - Amulet - Decommission
+:: REQ0039787 - DM1542 - eSearch - Test database refresh
+
+:: Ä Ä Ä Ä Ä 
+:: DM1542 - no exist
+:: Ä Ä Ä Ä Ä 
+:: REQ0017349 - DM1542 - DECOM - Logistics Websites: MMA, LaMMS, Logistics Aviation - CR    - no exist
+:: REQ0012382 - DM1542 - New Server Request - Alarm Insight - AG    - no exist
+:: REQ0017955 - DM1542 - IT - Admin accounts - Jan Sorensen - JB - no exist
+:: REQ0019441 - DM1542 - Jump Server - JB - no exist
+:: REQ0019472 - DM1542 - Citrix Access to connect to HE servers - JB - no exist
+:: REQ0019994 - DM1542 - jan.sorensen Access to ab0pwappain01 - JB - no exist
+
+:: Ä Ä Ä Ä Ä 
+:: DM1666
+:: Ä Ä Ä Ä Ä 
+:: REQ0000000 - DM1666 - Salto - Title
+:: REQ0042142 - DM1666 - Salto - Server permissions
+:: REQ0042974 - DM1666 - Citrix - xPMO Access
+:: REQ0041953 - DM1666 - Salto - Webpage Firewall
+:: REQ0046789 - DM1666 - Salto - AD Group Creation
+:: REQ0049430 - DM1666 - GG-AP-UK-SaltoDoor Access
+:: REQ0049453 - DM1666 - Salto - AB0PWAPPDHDES01 Port access 8100
+:: REQ0049970 - DM1666 - Salto - IT - Admin accounts - Gavin Hogg
+:: REQ0049973 - DM1666 - Salto - Firewall on AB0PWAPPDHDES01
+:: REQ0050470 - DM1666 - Salto - Firewall Exception Request
+
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: General
+:: ÄÄÄÄÄÄÄÄÄÄ
+:: REQ0011035 - General - Conoco User account
+:: REQ0011558 - General - Lacima VAR DB backup
+:: REQ0016606 - General - Software Eikon
+:: REQ0018336 - General - Add to AD Group
+:: REQ0019394 - General - Jacqui Pynn added to Bypass Group
+:: REQ0041601 - General - Notepad++ Installation
+:: REQ0041835 - General - Docking Station - Chrysaor
+:: REQ0042218 - General - O Drive Access - Chrysaor
+:: REQ0042693 - General - Access to CyberArk vault
+:: REQ0047722 - General - Service Now Access
+:: REQ0048347 - General - Service Now Access
+:: REQ0048509 - General - Citrix admin access
+:: REQ0052578 - General - Software PowerBI
+:: REQ0054196 - General - Harbour admin account
+:: REQ0055253 - General - Docking Station - Harbour
+:: REQ0058090 - General - Azure Roles
+:: REQ0058340 - General - O Drive Access - Harbour
+:: REQ0058893 - General - Citrix Desktop Access
+:: REQ0061670 - General - Local Admin Privileges
+:: REQ0063481 - General - Azure Active Directory Access
+:: REQ0069581 - General - Conoco admin account
+:: REQ0070405 - General - Wireless, Keyboard, Mouse, Camera
+:: REQ0030420 - General - Unlock Admin Account
+:: REQ0033809 - General - Azure Virtual Desktop
+:: REQ0035847 - General - Excel Run as Admin - no licence
+:: REQ0000000 - General - Ability to run Excel Macros
+:: REQ0045191 - General - Admin Account - elevate privileges on UK-LON-IT-01
+:: REQ0047997 - General - HPALM - Web Cert Expiring
+:: REQ0024908 - General - Web Server Certificate Request
+:: REQ0048664 - General - Sharepoint Folder Access
+

@@ -1,0 +1,60 @@
+:: Changes
+:: =========
+:: CHG0000000 - Category - Title
+CHG0000000 - DM1007 - Test Folder1
+CHG0000000 - DM1415 - Test Folder2
+CHG0000000 - DM1420 - Test Folder3
+CHG0000000 - DM1542 - Test Folder4
+CHG0000000 - DM1666 - Test Folder5
+CHG0000000 - ISBAU12 - Test Folder6
+CHG0000000 - Preapproved - Test Folder7
+CHG0000000 - TestCat - Test Folder
+
+:: Incidents
+:: =========
+:: INC0000000 - Category - Title
+INC0000000 - Citrix - Test Folder1
+INC0000000 - DM1415 - Test Folder2
+INC0000000 - DM1534 - Test Folder3
+INC0000000 - DM1542 - Test Folder4
+INC0000000 - DM1666 - Test Folder5
+INC0000000 - eLearning - Test Folder6
+INC0000000 - General - Test Folder7
+INC0000000 - Not Logged - Test Folder8
+INC0000000 - Security - Test Folder9
+INC0000000 - Treasury - Test Folder10
+INC0000000 - TestCat - Test Folder
+
+:: Personal
+:: =========
+:: PER0000001 - Personal - Title
+PER0000001 - Appliances - Test Folder1
+PER0000001 - Computers - Test Folder2
+PER0000001 - Development - Test Folder3
+PER0000001 - File System - Test Folder4
+PER0000001 - Finance - Test Folder5
+PER0000001 - General - Test Folder6
+PER0000001 - Maintenance - Test Folder7
+PER0000001 - Medical - Test Folder8
+PER0000001 - Shopping - Test Folder9
+PER0000001 - Travel - Test Folder10
+PER0000001 - TestCat - Test Folder
+
+:: Problems
+:: =========
+:: PRB0000000 - Category - Title
+PRB0000000 - Test - Test Folder1
+
+:: Requests
+:: =========
+:: REQ0000000 - Category - Title
+REQ0000000 - DM1007 - Test Folder1
+REQ0000000 - DM1085 - Test Folder2
+REQ0000000 - DM1272 - Test Folder3
+REQ0000000 - DM1534 - Test Folder4
+REQ0000000 - DM1542 - Test Folder5
+REQ0000000 - DM1666 - Test Folder6
+REQ0000000 - General - Test Folder7
+REQ0000000 - ISBAU12 - Test Folder8
+REQ0000000 - TestCat - Test Folder
+
